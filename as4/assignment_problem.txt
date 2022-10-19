@@ -1,0 +1,5 @@
+consider a graph with 8 nodes a1, a2, a3, a4, h , t, f1, f2 - variables(x)
+ai is connected to ai + 1 (if it so how would we travel a1 to a2, a2 to a3, a3 to a4)
+for all i each ai is connected to h and h is connected to t, t is connected to each fi.
+find a 3 coloring of this graph by using the following strategy backtacking with conflict directed backjumping
+the variable order a1, h, a4, f1, a2, f2, a3, t and the values - R,G,B
